@@ -1,0 +1,8 @@
+.grid1,.grid2{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-bottom: 30px;
+}
+.grid2{
+    grid-template-columns: 100px 100px 200px;
+}
