@@ -1,0 +1,65 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    column-gap: 10px;
+}
+.profile_image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.name{
+    display: flex;
+    column-gap: 8px;
+}
+.username{
+    font-weight: bold;
+    font-size: 18px;
+}
+.at_the_rate{
+    font-size: 17px;
+    color: rgb(120, 120, 120);
+}
+.about{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+.links{
+    display: flex;
+    width: 380px;
+    height: 100px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.thumbnail{
+    background-color: rgb(206, 206, 206);
+    height: 100px;
+    width: 120px;
+    margin-right: 10px;
+    
+    
+}
+
+.youtube{
+    padding-top: 10px;
+    color: rgb(120, 120, 120);
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.content{
+    width: 240px;
+    font-size: 17px;
+    line-height: 22px;
+}
