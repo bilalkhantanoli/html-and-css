@@ -1,0 +1,96 @@
+.div1{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+}
+.div2{
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+body{
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 72px;
+}
+.head{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.side{
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    align-items: center;
+    width: 72px;
+}
+.a{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.b{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+.c{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(152, 152, 152, 0.8);
+}
+.modal{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.absolute{
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.x{
+    background-color: red;
+    color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
