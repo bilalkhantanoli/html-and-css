@@ -1,0 +1,64 @@
+.tahoma{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+.arial_sales{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+.verdana_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.verdana_desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    margin-top: 0;
+}
+.verdana_descr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    width: 380px;
+}
+.verdana_btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 4px;
+    font-size: 21px;
+}
+.arial_shop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.arial_apple{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.learn_more{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(21, 136, 208);
+    cursor: pointer;
+
+}
