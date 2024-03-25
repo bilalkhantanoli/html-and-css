@@ -1,0 +1,27 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.currency{
+    font-size: 18px;
+    color: rgb(133, 133, 133);
+}
+.day{
+    font-size: 18px;
+    color: green;
+    margin-bottom: 2px;
+}
+.pnl{
+    font-size: 18px;
+    color: rgb(133, 133, 133);
+}
+.neg_pnl{
+    color: red;
+}
+
