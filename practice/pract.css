@@ -1,0 +1,169 @@
+.uber_btn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    height: 36px;
+    width: 110px;
+    cursor: pointer;
+    transition: opacity 0.10s;
+  }
+  .uber_btn:hover{
+    opacity: 0.8;
+  }
+  
+  .amazon_btn{
+    margin-top: 20px;
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 140px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: background-color 0.10s;
+  }
+  .amazon_btn:hover{
+    background-color: rgb(255, 191, 0);
+  }
+  
+  .github_btn{
+    margin-top: 20px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.10s;
+  }
+  .github_btn:hover{
+    box-shadow: 0 10px 12px 0 rgb(220, 220, 220);
+  }
+  .bootstrap_get_btn{
+    margin-top: 20px;
+    margin-right: 8px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: rgb(121, 82, 179);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s;;
+  }
+  .bootstrap_get_btn:hover{
+    background-color: rgb(101, 65, 156);
+  }
+  .bootstrap_down_btn{
+    background-color: white;
+    height: 40px;
+    width: 110px;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-width: 1px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .bootstrap_down_btn:hover{
+     background-color: rgb(108, 117, 125);
+     color: white;
+  }
+  .apply_btn{
+    margin-top: 20px;
+    margin-right: 8px;
+    height: 36px;
+    width: 240px;
+    text-align: center;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .apply_btn:hover{
+    background-color: rgb(18, 65, 121);
+  }
+  .save_btn{
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border-color: rgb(25, 96, 192);
+    border-width: 1px;
+    height: 36px;
+    width: 73px;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s;
+  }
+  .save_btn:hover{
+    background-color: rgb(201, 227, 255);
+    border-width: 2px;
+  }
+  .link{
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+  }
+  .link:hover{
+    color: rgb(255, 156, 8);
+  }
+  .para{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .para1{
+    color: rgb(0, 118, 0);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .para2{
+    font-weight: bold;
+  }
+  .add_btn{
+    margin-right: 10px;
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 120px;
+    border: none;
+    font-size: 15px;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .add_btn:hover{
+    background-color: rgb(231, 196, 17);
+  }
+  .add_btn:active{
+    opacity: 0.7;
+  }
+  .order_btn{
+    background-color: rgb(255, 164, 28);
+    font-size: 15px;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .order_btn:hover{
+    background-color: rgb(189, 121, 19);
+  }
+  .order_btn:active{
+    opacity: 0.7;
+  }
+  
