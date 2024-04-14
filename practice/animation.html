@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .div1{
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+
+            /* animation-name: widthAnimate;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-delay: 0;
+            animation-iteration-count: 2;
+            animation-direction: normal; */
+
+            animation: widthAnimate 3s ease-in 0s infinite normal;
+        }
+        @keyframes textAnimation {
+            from {
+                font-size: 14px;
+            }
+            to {
+                font-size: 50px;
+            }
+        }
+
+        @keyframes widthAnimate {
+            0% {
+                width: 100px;
+                background-color: antiquewhite;
+            }
+            25% {
+                background-color: aquamarine;
+            }
+            50% {
+                background-color: bisque;
+            }
+            75%{
+                background-color: black;
+            }
+            100%{
+                background-color: brown;
+                width: 300px;
+            }
+        }
+        @keyframes colorAnimate {
+            from {
+                background-color: aqua;
+            }
+            to {
+                background-color: beige;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div class="div1">
+        This is a div
+    </div>
+</body>
+</html>
